@@ -81,6 +81,7 @@ class img_prosessing():
         response=requests.get(image_path)
         img = Image.open(BytesIO(response.content))
         text = pytesseract.image_to_string(img)
+        print(text)
         text_count = 1
         text_file = "text" + str(text_count) + ".txt"
         with open(text_file, 'w+') as f:
@@ -113,9 +114,15 @@ class img_prosessing():
             f.writelines(text)
             text_count += 1
         file=open(text_file,'r')
-        line_count_list=[49,53,55]
+        line_count_list=[15,49,53,55]
         dic=dict()
         for line_count,line in enumerate(file):
+            #print(line_count,line)
+            if line_count==15:
+                a=line.split()
+                b=a[-3::-1]
+                dic['name']=b[::-1]
+                dic['dateOfExam']=a[-2:]
             if line_count==49:
                 a=line.split()
 
@@ -129,5 +136,5 @@ class img_prosessing():
                 dic['school_name']=line
         return dic
 
-#image_path= 'https://i.postimg.cc/rFqxmH2Y/in-nic-tn-dgecert-HSCER-1710243086.png'
-#img_prosessing.img_to_text_tweth_mark(image_path)
+image_path= 'https://i.postimg.cc/1XwrWSKw/aadhar.png'
+print(img_prosessing.img_to_text_aadhar(image_path))
