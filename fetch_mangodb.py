@@ -7,7 +7,7 @@ class fetch_mangidb_data():
     def fetch_data():
         from pymongo import MongoClient
 
-        #client= MongoClient('mongodb+srv://web-client:yjpMsZ7WgH2eueA@default.droi9.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority')
+        client= MongoClient('mongodb+srv://web-client:yjpMsZ7WgH2eueA@default.droi9.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority')
 
         #db=client.get_database('stet')
         #records=db.applications
@@ -22,7 +22,7 @@ class fetch_mangidb_data():
         pan_card=documents['pan']
         pan_text=img_prosessing.img_text_pan(pan_card)
         #print(pan_text)
-        aadhar_card=documents['aadhaar']
+        aadhar_card='https://i.postimg.cc/1XwrWSKw/aadhar.png'
         aadhar_text=img_prosessing.img_to_text_aadhar(aadhar_card)
         #print(aadhar_text)
         twelth_mark=documents['HSC']
@@ -34,3 +34,24 @@ class fetch_mangidb_data():
         #print(record[0]['SSLC']['institute'])
 #document_dict,records_dict=fetch_mangidb_data.fetch_data()
 #print(document_dict,records_dict)
+
+    def insert_mangodb(name,mailid,valid=True,reg_no=[22202001]):
+        from pymongo import MongoClient
+        client = MongoClient(
+            'mongodb+srv://web-client:yjpMsZ7WgH2eueA@default.droi9.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority')
+        db=client.get_database('stet')
+        records=db.valid
+        print(records.count_documents({}))
+        reg_no=reg_no[0]
+
+        new_record={
+            'valid':valid,
+            'Reg_no':reg_no,
+            'mailid':mailid,
+            'name':name,
+        }
+        records.insert_one(new_record)
+        print(records.count_documents({}))
+        return reg_no
+
+#print(fetch_mangidb_data.insert_mangodb('pavi','pavi@gmail.com'))
