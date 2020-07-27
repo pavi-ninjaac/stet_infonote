@@ -1,4 +1,5 @@
 from fetch_mangodb import fetch_mangidb_data
+from mail_content import mail
 import smtplib,ssl
 import email, smtplib, ssl
 
@@ -8,22 +9,42 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 #convert the pdf to png formate this function convert the pdf file and save it as png and give you the image path
 #here return image path will be inside the list so indexing is must while using that path
-#document_dict,records_dict=fetch_mangidb_data.fetch_data()
-#print(document_dict)
-#print(records_dict)
+document_dict,records_dict=fetch_mangidb_data.fetch_data()
+print(document_dict)
+print(records_dict)
+#________________________-turthness verification
+
 #_________________comaprision code goes  here
 #________________________________send mail
+name='pavithra'
+mailid='pavipd23@gmail.com'
 valid=True
 if(valid==True):
+    reg_no=fetch_mangidb_data.insert_mangodb(name, mailid, valid=True)
 
+    subject = "STET APPLICATION RESULTS 2020"
+    body = f"""Dear applicant {name},
+    Your application to the STET examination of Sikkim 2020 is received and gone under the verification process.After the certification verification process, your application is approved and you can collect your admit card through this mail attachment.
 
-    subject = "An email with attachment from Python"
-    body = "This is an email with attachment sent from Python"
+Note:
+
+1) One another offline certification verification process to is there.
+2) You will be notify with the Date, Time, Place of examination of the offline certification verification through mail.
+3) Your examination roll number, Center name, Center google location link are present in the admit card.
+4) If there is any issue with opening the admit card, please try again later.
+5) The admit card hot copy must be present with you on the examination.
+6) You will be present on time to the examination with your proof of identification, admit card.
+ALL THE BEST FOR YOUR EXAMINATION    
+If there are any queries contact us:
+    Mobile -- 9834555944
+    Email -- stet.infonote@gmail.com
+  
+    """
 
 
 
     sender_email = "stet.infonote@gmail.com"
-    receiver_email = "stet.infonote@gmail.com"
+    receiver_email = "dravid0510@gmail.com"
     password = 'stet123infonote'
 
     # Create a multipart message and set headers
@@ -41,7 +62,7 @@ if(valid==True):
     
     """
 
-    filename = "do.pdf"  # In same directory as script
+    filename = mail.generate_mail(name,reg_no)  # In same directory as script
 
     # Open PDF file in binary mode
     with open(filename, 'rb') as attachment:
@@ -55,7 +76,7 @@ if(valid==True):
 
     # Add header as key/value pair to attachment part
     part.add_header(
-        "Content-Decomposition",
+        "Content-Disposition",
         "attachment", filename= filename,
     )
 
@@ -75,10 +96,14 @@ else:
     receiver_email = "stet.infonote@gmail.com"  # Enter receiver address
     password = 'stet123infonote'
     NAME="pavi"
-    message = """\
-    Subject: Hi there {%NAME}
+    message = f"""Dear applicant,
+Your application for STET 2020 examination is received and gone under the verification process, when verifing the documents there are some mismatch to your apllication and the documents so your application is disapproved.
 
-    This message is sent from Python."""
+Any Queries:
+Mobile -- 9843556743
+Mail ID -- stet.infonote@gmail.com
+    
+    """
 
     context = ssl.create_default_context()
     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
