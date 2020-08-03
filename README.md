@@ -56,33 +56,52 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 # App Fundamentals:
 
 # User Interface:
+ Here is our UI that is fully responcible.
+ 
 ![Screenshot (212)](https://user-images.githubusercontent.com/51699297/89201549-4ae9bc00-d5cf-11ea-9ed7-d3fb193e2ff6.png)
 
 ![Screenshot (213)](https://user-images.githubusercontent.com/51699297/89201563-50df9d00-d5cf-11ea-917d-d1997376e875.png)
 
 ![Screenshot (214)](https://user-images.githubusercontent.com/51699297/89201570-52a96080-d5cf-11ea-8db0-cd7425d3bffa.png)
 
+- Here you can register and upload all the documents and click submit to complte the registration.
+
 ![Screenshot (215)](https://user-images.githubusercontent.com/51699297/89201573-54732400-d5cf-11ea-91bb-b8960b575410.png)
+
+- This the materials for the candidate references 
 
 ![Screenshot (216)](https://user-images.githubusercontent.com/51699297/89201582-55a45100-d5cf-11ea-8529-acfad5850c71.png)
 
+- here the user can see the results after it publiced by the admin.
+
 ![Screenshot (217)](https://user-images.githubusercontent.com/51699297/89201601-5dfc8c00-d5cf-11ea-83d2-c15f84ecdb5f.png)
+
+- While we extracting the document required features using the image and OCR techniques.
 
 ![Screenshot (225)](https://user-images.githubusercontent.com/51699297/89202227-407bf200-d5d0-11ea-986c-ac2e166b4cbb.png)
 
 
 # Admin Panel:
 
+- Here the admin panel admin can see the statistics of how much odcumnents are submitted and how much rejected and accepted.
+- Admin can strat and stop the Verification process by clicking the verify button.
+- Admin can publish the results by clicking the result button
+
 ![Screenshot (219)](https://user-images.githubusercontent.com/51699297/89202189-378b2080-d5d0-11ea-9b36-0838d287d78f.png)
+
+- The admin can Insert, Upload, Delete the result in bulk and indivitual manner.
 
 ![Screenshot (222)](https://user-images.githubusercontent.com/51699297/89202389-81740680-d5d0-11ea-881c-8bc5f22d2e80.png)
 
 # Admit card:
 
+- here is the admit card
+
 ![Screenshot (223)](https://user-images.githubusercontent.com/51699297/89202208-3c4fd480-d5d0-11ea-93b0-ed272b06770e.png)
 
 
 # TET Bot(chatBot):
+
  We have created one TETBot for our web applocation. Here you can ask and clarify all of your questions, like simply talking to your best friend.It is AI based chatbot with high accuracy.<br />
  
  The chatbot creation process is listed here [Create chatBOT](https://github.com/pavi-ninjaac/Covid19Bot)
