@@ -6,9 +6,9 @@
 -	[About Our project](#about-our-project) 
 -	[Features and Solutions](#features-and-solutions)
 -	[App Fundamentals](#app-fundamentals)
-  -- [User Interface](#user-interface)
-  -- [Admin Panel](#admin-panel)
-- [TET Bot(chatBot)](#tet-bot(chatbot))
+  - [User Interface](#user-interface)
+  - [Admin Panel](#admin-panel)
+- [TET Bot chatBot](#tet-bot-chatbot)
 -	[Technologies](#technologies) 
 -	[Team members](#team-members)
 
