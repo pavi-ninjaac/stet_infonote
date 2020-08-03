@@ -1,4 +1,4 @@
-# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TETOHA
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TETOHA
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Portal for STET(Teacher Eligibility Test) of Sikkim - 2020
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Team Info Note
 
@@ -53,7 +53,7 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 -	Even reduce the network issues we completely <b>omitted the graphical and Animation</b> kind of things.
 -	The routes are very high speed and secure.
 
-# Technologies :
+# Technologies:
 - <b>Python</b> – The Machine Learning and image processing language.
 - <b>Image Processing Technique (OpenCV)</b> – Verify the documents .
 - <b>OCR</b> – High security feature extraction from the PDF, JPNG, PNG format data.
