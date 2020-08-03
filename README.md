@@ -55,9 +55,29 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 # App Fundamentals:
 
 # User Interface:
+![Screenshot (212)](https://user-images.githubusercontent.com/51699297/89201549-4ae9bc00-d5cf-11ea-9ed7-d3fb193e2ff6.png)
 
+![Screenshot (213)](https://user-images.githubusercontent.com/51699297/89201563-50df9d00-d5cf-11ea-917d-d1997376e875.png)
+
+![Screenshot (214)](https://user-images.githubusercontent.com/51699297/89201570-52a96080-d5cf-11ea-8db0-cd7425d3bffa.png)
+
+![Screenshot (215)](https://user-images.githubusercontent.com/51699297/89201573-54732400-d5cf-11ea-91bb-b8960b575410.png)
+
+![Screenshot (216)](https://user-images.githubusercontent.com/51699297/89201582-55a45100-d5cf-11ea-8529-acfad5850c71.png)
+
+![Screenshot (217)](https://user-images.githubusercontent.com/51699297/89201601-5dfc8c00-d5cf-11ea-83d2-c15f84ecdb5f.png)
+
+![Screenshot (223)](https://user-images.githubusercontent.com/51699297/89202208-3c4fd480-d5d0-11ea-93b0-ed272b06770e.png)
 
 # Admin Panel:
+
+![Screenshot (219)](https://user-images.githubusercontent.com/51699297/89202189-378b2080-d5d0-11ea-9b36-0838d287d78f.png)
+
+![Screenshot (222)](https://user-images.githubusercontent.com/51699297/89202389-81740680-d5d0-11ea-881c-8bc5f22d2e80.png)
+
+# Admit card:
+![Screenshot (225)](https://user-images.githubusercontent.com/51699297/89202227-407bf200-d5d0-11ea-986c-ac2e166b4cbb.png)
+323c7003267d.png)
 # Technologies:
 - <b>Python</b> – The Machine Learning and image processing language.
 - <b>Image Processing Technique (OpenCV)</b> – Verify the documents .
@@ -72,7 +92,6 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 - [Dravid Kumar B]()
 - [Ponmalar S]()
 - [Pooja Lakshmi C]()
-
 
 
 
