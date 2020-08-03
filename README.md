@@ -67,7 +67,8 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 
 ![Screenshot (217)](https://user-images.githubusercontent.com/51699297/89201601-5dfc8c00-d5cf-11ea-83d2-c15f84ecdb5f.png)
 
-![Screenshot (223)](https://user-images.githubusercontent.com/51699297/89202208-3c4fd480-d5d0-11ea-93b0-ed272b06770e.png)
+![Screenshot (225)](https://user-images.githubusercontent.com/51699297/89202227-407bf200-d5d0-11ea-986c-ac2e166b4cbb.png)
+
 
 # Admin Panel:
 
@@ -76,8 +77,9 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 ![Screenshot (222)](https://user-images.githubusercontent.com/51699297/89202389-81740680-d5d0-11ea-881c-8bc5f22d2e80.png)
 
 # Admit card:
-![Screenshot (225)](https://user-images.githubusercontent.com/51699297/89202227-407bf200-d5d0-11ea-986c-ac2e166b4cbb.png)
-323c7003267d.png)
+
+![Screenshot (223)](https://user-images.githubusercontent.com/51699297/89202208-3c4fd480-d5d0-11ea-93b0-ed272b06770e.png)
+
 # Technologies:
 - <b>Python</b> – The Machine Learning and image processing language.
 - <b>Image Processing Technique (OpenCV)</b> – Verify the documents .
