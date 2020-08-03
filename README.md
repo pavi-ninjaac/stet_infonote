@@ -2,6 +2,8 @@
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Web Portal for STET(Teacher Eligibility Test) of Sikkim - 2020
 # &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Team Info Note
 
+![WhatsApp Image 2020-08-03 at 21 24 36](https://user-images.githubusercontent.com/51699297/89205171-eb8eaa80-d5d4-11ea-83f3-0356089801ce.jpeg)
+
 ### Table of Content:
 -	[About Our project](#about-our-project) 
 -	[Features and Solutions](#features-and-solutions)
