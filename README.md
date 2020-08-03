@@ -6,8 +6,9 @@
 -	[About Our project](#about-our-project) 
 -	[Features and Solutions](#features-and-solutions)
 -	[App Fundamentals](#app-fundamentals)
-  - [User Interface](#user-interface)
-  - [Admin Panel](#admin-panel)
+  -- [User Interface](#user-interface)
+  -- [Admin Panel](#admin-panel)
+- [TET Bot(chatBot)](#tet-bot(chatbot))
 -	[Technologies](#technologies) 
 -	[Team members](#team-members)
 
@@ -79,6 +80,15 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 # Admit card:
 
 ![Screenshot (223)](https://user-images.githubusercontent.com/51699297/89202208-3c4fd480-d5d0-11ea-93b0-ed272b06770e.png)
+
+
+# TET Bot(chatBot):
+ We have created one TETBot for our web applocation. Here you can ask and clarify all of your questions, like simply talking to your best friend.It is AI based chatbot with high accuracy.<br />
+ 
+ The chatbot creation process is listed here [Create chatBOT](https://github.com/pavi-ninjaac/Covid19Bot)
+ 
+ ![Screenshot (227)](https://user-images.githubusercontent.com/51699297/89203358-13304380-d5d2-11ea-8c9b-5c2a04763c5d.png)
+
 
 # Technologies:
 - <b>Python</b> – The Machine Learning and image processing language.
