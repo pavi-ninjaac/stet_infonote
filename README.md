@@ -6,8 +6,8 @@
 -	[About Our project](#about-our-project) 
 -	[Features and Solutions](#features-and-solutions)
 -	[App Fundamentals](#app-fundamentals)
-  - [User Interface]()
-  - [Admin Panel]()
+  - [User Interface](#user-interface)
+  - [Admin Panel](#admin-panel)
 -	[Technologies](#technologies) 
 -	[Team members](#team-members)
 
@@ -52,7 +52,12 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 -	It will load in network range from <b>20 kb – 45 kb in very good</b> and smooth manner.
 -	Even reduce the network issues we completely <b>omitted the graphical and Animation</b> kind of things.
 -	The routes are very high speed and secure.
+# App Fundamentals:
 
+# User Interface:
+
+
+# Admin Panel:
 # Technologies:
 - <b>Python</b> – The Machine Learning and image processing language.
 - <b>Image Processing Technique (OpenCV)</b> – Verify the documents .
@@ -67,9 +72,6 @@ We are collected the <b>eligibility criteria that was given by the Sikkim state<
 - [Dravid Kumar B]()
 - [Ponmalar S]()
 - [Pooja Lakshmi C]()
-
-
-
 
 
 
